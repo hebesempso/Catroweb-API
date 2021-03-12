@@ -158,6 +158,13 @@ open_api_server_projects_projectsuseridget:
     requirements:
         id: '^[a-zA-Z0-9\\-]+$'
 
+# search
+open_api_server_search_searchget:
+    path:     /search
+    methods:  [GET]
+    defaults:
+        _controller: open_api_server.controller.search:searchGetAction
+
 # user
 open_api_server_user_userdelete:
     path:     /user
