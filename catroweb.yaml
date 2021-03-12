@@ -1715,8 +1715,6 @@ components:
     ###
     SearchResponse:
       type: object
-      items:
-        $ref: '#/components/schemas/SearchResponse'
       properties:
         projects:
           type: array
