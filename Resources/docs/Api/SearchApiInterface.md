@@ -55,7 +55,7 @@ class SearchApi implements SearchApiInterface
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **query** | **string**|  |
- **type** | **string**| * &#x60;all&#x60; - Get results from projects, users, ... * &#x60;projects&#x60; - Get results from projects * &#x60;users&#x60; - Get results from users | [optional] [default to &#39;&#39;all&#39;&#39;]
+ **type** | **string**|  | [optional] [default to &#39;&#39;all&#39;&#39;]
  **limit** | **int**|  | [optional] [default to 20]
  **offset** | **int**|  | [optional] [default to 0]
 

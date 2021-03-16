@@ -48,7 +48,7 @@ interface SearchApiInterface
      * Search for projects, users,...
      *
      * @param  string $query   (required)
-     * @param  string $type  * &#x60;all&#x60; - Get results from projects, users, ... * &#x60;projects&#x60; - Get results from projects * &#x60;users&#x60; - Get results from users (optional, default to ''all'')
+     * @param  string $type   (optional, default to ''all'')
      * @param  int $limit   (optional, default to 20)
      * @param  int $offset   (optional, default to 0)
      * @param  integer $responseCode     The HTTP response code to return
