@@ -1112,10 +1112,6 @@ components:
           - projects
           - users
         default: all
-      description: |
-        * `all` - Get results from projects, users, ...
-        * `projects` - Get results from projects
-        * `users` - Get results from users
 
   schemas:
 
